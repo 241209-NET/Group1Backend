@@ -3,8 +3,12 @@ Group 1 back end for project 3
 
 
 ## Overview
-Reverse Yelp App - PLEY
-This is an app where stores can rate and review their customers. This will be helpful for stores to help other stores to warn each other about bad customers and keep unsavory characters out of their establishment.
+PLEY - The Reverse Yelp App
+
+PLEY is a unique app that lets stores rate and review their customers. It’s a helpful tool for businesses to share feedback with each other about customer behavior, making it easier to spot and avoid problematic customers. By working together, stores can create a better experience for everyone and keep their spaces safe and enjoyable.
+
+## Project Management System
+https://trello.com/b/ty8JcQUv/pley
 
 ## Members
 - Ludia Park
@@ -16,6 +20,9 @@ This is an app where stores can rate and review their customers. This will be he
 - Justin Theyskens
 
 ## ERD
+
+![image](https://github.com/user-attachments/assets/4eb1d1ae-24b9-4cbd-9a01-c17d59271bb4)
+
 
 ## User Stories
 - Restaurants should be able to create a new Restaurant Profile
@@ -63,3 +70,4 @@ This is an app where stores can rate and review their customers. This will be he
 - Make it pretty
 - display top customers (hall of fame)
 - display worst customers (hall of shame)
+- Adding address of Restaurant
