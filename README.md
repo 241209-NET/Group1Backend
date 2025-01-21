@@ -8,7 +8,7 @@ PLEY - The Reverse Yelp App
 PLEY is a unique app that lets stores rate and review their customers. It’s a helpful tool for businesses to share feedback with each other about customer behavior, making it easier to spot and avoid problematic customers. By working together, stores can create a better experience for everyone and keep their spaces safe and enjoyable.
 
 ## Project Management System
-https://trello.com/b/ty8JcQUv/pley
+Trello
 
 ## Members
 - Ludia Park
