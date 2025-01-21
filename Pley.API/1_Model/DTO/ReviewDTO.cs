@@ -7,6 +7,7 @@ public class ReviewInDTO
     public required string Comment { get; set; }
     public int CustomerId { get; set; }
     public int StoreId { get; set; }
+    public int Rating { get; set; }
 }
 
 public class ReviewOutDTO
@@ -15,6 +16,7 @@ public class ReviewOutDTO
     public int Id { get; set; }
     public int CustomerId { get; set; }
     public int StoreId { get; set; }
-    public DateTime CommentTime { get; set;  }
+    public int Rating { get; set; }
+    public DateTime Time { get; set;  }
     // public CustomerOutDTO? Customer { get; set; }
 }

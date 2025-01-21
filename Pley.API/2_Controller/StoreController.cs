@@ -88,7 +88,7 @@ public class StoreController : ControllerBase
         var userList = _storeService.GetAllStores();
         if(userList is null || !userList.Any()) 
         {
-            return NotFound("No users found.");
+            return NotFound("No stores found.");
         }
         return Ok(userList);
     }

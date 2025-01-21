@@ -16,7 +16,13 @@ public interface IStoreService
 public interface IReviewService
 {
     ReviewOutDTO? GetReviewById(int id);
-    IEnumerable<ReviewOutDTO> GetAllReviews(); 
-    IEnumerable<ReviewOutDTO> GetReviewsByCustomerId(int userId);
-    ReviewOutDTO CreateNewReview(Review newReview);
+    IEnumerable<ReviewOutDTO> GetAllReviews();
+    ReviewOutDTO CreateNewReview(ReviewInDTO newReview);
+}
+
+public interface ICustomerService
+{
+    CustomerOutDTO? GetCustomerById(int id);
+    IEnumerable<CustomerOutDTO> GetAllCustomers();
+    CustomerOutDTO CreateNewCustomer(Customer customer);
 }
