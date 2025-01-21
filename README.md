@@ -1,10 +1,6 @@
-# Group1Backend
-Group 1 back end for project 3
-
+# PLEY: The Reverse Yelp App
 
 ## Overview
-PLEY - The Reverse Yelp App
-
 PLEY is a unique app that lets stores rate and review their customers. It’s a helpful tool for businesses to share feedback with each other about customer behavior, making it easier to spot and avoid problematic customers. By working together, stores can create a better experience for everyone and keep their spaces safe and enjoyable.
 
 ## Project Management System
@@ -21,22 +17,31 @@ Trello
 
 ## ERD
 
-![image](https://github.com/user-attachments/assets/4eb1d1ae-24b9-4cbd-9a01-c17d59271bb4)
+![image](https://github.com/user-attachments/assets/4fa443e4-ba61-46fd-ae8e-600c7e0a6563)
+
 
 
 ## User Stories
-- Restaurants should be able to create a new Restaurant Profile
-- Restaurants should be able to find Customers by Id.
-- Restaurants should be able to create a review for that customer which includes a rating and a comment.
-- Restaurants can also edits those reviews
-- Restaurants can sort customers by ratings and by number of reviews
+- Stores should be able to create a new Store Profile
+- stores can edit their login info
+- Stores can create review (rating + comment).
+- Stores can edits reviews
+- Stores can delete reviews
+- Stores should be able to find Customers by Id
+- Stores should be able to see all customers
 
 ## MVP
-- create Restaurant Profiles
-- Edit logins
-- create / edit / delete reviews
-- create User Profiles
+- implement CI/CD with Github Actions
+- dockerize the app
+- create Store Profile
 - login authentication 
+- edit login for store
+- create / edit / delete reviews
+- create Customer Profile
+- get customer by Id
+- get all customers
+- sort customers by ratings
+- Stores can sort customers by ratings and by number of reviews
 
   
 ## Requirements
@@ -68,6 +73,7 @@ Trello
 
 ## Stretch goals
 - Make it pretty
+- sort customers by number of reviews
 - display top customers (hall of fame)
 - display worst customers (hall of shame)
-- Adding address of Restaurant
+- Adding address of Store and display it on google map
