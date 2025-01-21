@@ -1,0 +1,6 @@
+@P3_Group1Backend_HostAddress = http://localhost:5169
+
+GET {{P3_Group1Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
