@@ -49,7 +49,9 @@
 using Microsoft.EntityFrameworkCore;
 using Pley.API.Model;
 using Pley.API.Service;
+using Pley.API.Repo;
 using Pley.API.Util;
+using Pley.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -59,16 +61,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add cbcontext and connect it to connection string
-// builder.Services.AddDbContext<AstroContext>(options => 
-//     options.UseSqlServer(builder.Configuration.GetConnectionString(" ")));
+builder.Services.AddDbContext<PleyContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Cafe"))); // use your P1 conn string
 
 //Add service dependencies
 builder.Services.AddScoped<IStoreService, StoreService>();
 //builder.Services.AddScoped<IReviewService, ReviewService>();
 
 //Add repo dependencies
-//builder.Services.AddScoped<IStoreRepo, StoreRepo>();
-//builder.Services.AddScoped<IReviewRepo, ReviewRepo>();
+builder.Services.AddScoped<IStoreRepo, StoreRepo>();
+builder.Services.AddScoped<IReviewRepo, ReviewRepo>();
 
 //Use singleton for utilies
 builder.Services.AddSingleton<Utility>(); 
