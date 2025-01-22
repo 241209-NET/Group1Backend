@@ -15,7 +15,7 @@ public class Utility
         };
     }
 
-    public Store StoreInToStore(StoreInDTO storeInDTO)
+    public Store StoreInDTOToStore(StoreInDTO storeInDTO)
     {
         return new Store
         {

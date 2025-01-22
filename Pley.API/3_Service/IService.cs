@@ -6,7 +6,7 @@ namespace Pley.API.Service;
 public interface IStoreService
 {
     StoreOutDTO CreateNewStore(StoreInDTO newStore); 
-    IEnumerable<Store> GetAllStores();
+    IEnumerable<StoreOutDTO> GetAllStores();
     StoreOutDTO? GetStoreById(int id); 
     StoreOutDTO? DeleteStoreById(int id);
     StoreOutDTO? Login(string userName, string Password);
