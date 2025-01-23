@@ -15,7 +15,7 @@ public interface IStoreRepo
 
     Store? LoginStore(string userName, string Password);
 
-    Store? GetStoreByStorename(string username);
+    Store? GetStoreByName(string username);
 }
 
 public interface IReviewRepo
